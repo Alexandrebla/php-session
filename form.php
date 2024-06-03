@@ -3,6 +3,7 @@
 <?php
 session_start();
 
+//Un test
 if (isset($_SESSION["lastname"])) {
     header("Location: page-connected.php");
     }
